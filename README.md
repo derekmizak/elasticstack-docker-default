@@ -9,6 +9,7 @@ Two directories:
 ./logstash_ingest_data
 
 Can be used initially to inject data into the stack.
+Delete files placed in those directories to stop the injection. Those files are used only for Github to create directories.
 
 ## Usage
 
