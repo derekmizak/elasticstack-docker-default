@@ -5,8 +5,12 @@ The stack inject data from the Logstash folder into elasticsearch and visualize 
 Additionally it contains a Filebeat container to inject data from the host system into logstash.
 
 Two directories:
-```./logstash_ingest_data```
-```./filebeat_ingest_data```
+
+```
+./logstash_ingest_data
+./filebeat_ingest_data
+```
+
 can be used initially to inject data into the stack.
 Delete files placed in those directories to stop the injection. Those files are used only for Github to create directories.
 
